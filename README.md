@@ -3,7 +3,7 @@
 
 An advanced, full-featured game leaderboard system built with React, TypeScript, and Tailwind CSS. This system provides comprehensive score tracking across multiple game types with built-in rate limiting, validation, and management features.
 
-## 🎮 Features
+##  Features
 
 ### Core Functionality
 - **Multi-Game Support**: Track scores across different game types
@@ -24,7 +24,7 @@ An advanced, full-featured game leaderboard system built with React, TypeScript,
 - **Score Formatting**: Automatic number formatting with commas
 - **Timestamp Display**: Shows when each score was submitted
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -65,7 +65,7 @@ yarn build
 
 The built files will be in the `dist` directory.
 
-## 🎯 How to Use
+##  How to Use
 
 ### Viewing Leaderboards
 1. Click on the **"Leaderboards"** tab (default view)
@@ -88,7 +88,7 @@ The built files will be in the `dist` directory.
 3. **Remove Games**: Click the trash icon next to any game to remove it
 4. Removing a game also removes all associated scores
 
-## ⚙️ Configuration
+##  Configuration
 
 The component accepts the following props for customization:
 
@@ -106,7 +106,7 @@ The system comes with three pre-configured games:
 - **Puzzle Master**: Mind-bending puzzle challenges  
 - **Racing Thunder**: High-speed racing action
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### Technology Stack
 - **React 18**: Modern React with hooks
@@ -140,7 +140,7 @@ interface GameType {
 }
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Styling
 The system uses Tailwind CSS for styling. Key design elements:
@@ -168,14 +168,14 @@ const customGames = [
 <GameLeaderboardSystem initialGameTypes={customGames} />
 ```
 
-## 📱 Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -183,11 +183,9 @@ const customGames = [
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
 
-This project is built with Lovable and is available under the MIT License.
 
-## 🆘 Support
+##  Support
 
 For issues or questions:
 1. Check the browser console for error messages
